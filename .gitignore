@@ -36,3 +36,19 @@ plans/
 complete_data_dump.json
 data_dump_neon.json
 data_dump.json
+
+# Database files
+node-backend/prisma/dev.db
+node-backend/prisma/*.db
+
+# Backup files
+*.backup
+
+# Credentials files
+atlas-credentials*.env
+
+# Verification scripts
+node-backend/verify-data.js
+
+# Seed scripts (optional - keep if you want to track them)
+# node-backend/scripts/seed-data.js

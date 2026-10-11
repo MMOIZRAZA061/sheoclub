@@ -95,3 +95,4 @@ node-backend/public/uploads
 For Vercel production uploads, set `CLOUDINARY_URL` in the Vercel environment variables. When Cloudinary is configured, product, category, variant, gallery, banner, settings, and payment-proof uploads are stored in Cloudinary and the saved database value is the Cloudinary URL.
 
 Do not commit Cloudinary secrets. Add the real value only in Vercel project settings or in the local ignored `node-backend/.env` file.
+"# sheoclub" 
